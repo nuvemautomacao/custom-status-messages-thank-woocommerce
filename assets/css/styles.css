@@ -1,0 +1,38 @@
+.woocommerce-thankyou-order-received {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.woocommerce-thankyou-order-received .custom-icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+/* Status-specific styles */
+.woocommerce-thankyou-order-received.completed {
+    border: 2px solid #7ab55c;
+}
+
+.woocommerce-thankyou-order-received.processing {
+    border: 2px solid #5b9dd9;
+}
+
+.woocommerce-thankyou-order-received.on-hold {
+    border: 2px solid #f8dda7;
+}
+
+.woocommerce-thankyou-order-received.cancelled {
+    border: 2px solid #e5554e;
+}
+
+.woocommerce-thankyou-order-received.refunded {
+    border: 2px solid #999;
+}
+
+.woocommerce-thankyou-order-received.failed {
+    border: 2px solid #e5554e;
+}
